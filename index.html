@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasa picture of the day</title>
+    <link rel="shortcut icon" href="./logo.png" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <section id="header-image" class="headerimg"> <b>NASA PICTURE OF THE DAY </b> </section>
+
+        <div class="data-cnt">
+            <div class="formData">
+                <form id="search-data">
+                    <h3>Select a date :</h3>
+                    <input type="date" id="form-input">
+                    <div id="error" style="color: red;display: none;">Error : Please select a date</div>
+                    <div id="error2" style="color: red;display: none;">Error : Date should be selected between June 16 1995 and Today</div>
+                    <button id="search-btn">Search</button>
+                </form>
+            </div>
+            <div class="search">
+                <h3>Previous searches</h3>
+                <ul id="search-data">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
